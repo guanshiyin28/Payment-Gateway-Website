@@ -246,6 +246,7 @@ body {
 .about h2,
 .menu h2,
 .products h2,
+.modal h2,
 .contact h2 {
   text-align: center;
   font-size: 2rem;
@@ -255,6 +256,7 @@ body {
 .about h2 span,
 .menu h2 span,
 .products h2 span,
+.modal h2 span,
 .contact h2 span {
   color: var(--primary);
 }
