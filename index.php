@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kopi Kenangan Senja</title>
+    <title>Guan</title>
+    <link rel="icon" href="img/favicon.svg" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,14 +39,14 @@
   <body>
     <!-- Navbar Start -->
     <nav class="navbar" x-data>
-      <a href="#" class="navbar-logo">kenangan<span>senja</span></a>
+      <a href="#" class="navbar-logo">Website <span>Guan</span></a>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#products">Produk</a>
-        <a href="#contact">Kontak</a>
+        <a href="#about">About Us</a>
+        <!-- <a href="#menu">Social Media</a> -->
+        <a href="#products">Menu</a>
+        <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
@@ -151,11 +152,9 @@
     <!-- Hero Section Start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <h1>Simple Payment Gateway <span>Website</span></h1>
         <p>
-          Kopi Kenangan Senja adalah kopi yang terbuat dari biji kopi pilihan
-          dan diolah dengan teknologi terbaru untuk memberikan pengalaman kopi
-          yang lezat dan berkualitas tinggi.
+          "Life is pleasant. Death is peaceful."
         </p>
       </main>
     </section>
@@ -163,20 +162,16 @@
 
     <!-- About Section Start -->
     <section id="about" class="about">
-      <h2><span>Tentang</span> Kami</h2>
+      <h2><span>About</span> Us</h2>
 
       <div class="row">
         <div class="about-img">
-          <img src="img/tentang-kami.jpeg" alt="" />
+          <img src="img/112034.jpg" alt="" />
         </div>
         <div class="content">
-          <h3>Kenapa Memilih Kopi Kenangan Senja?</h3>
+          <h3>Whoami?</h3>
           <p>
-            Kopi Kenangan Senja adalah kopi yang terbuat dari biji kopi pilihan
-            dan diolah dengan teknologi terbaru untuk memberikan pengalaman kopi
-            yang lezat dan berkualitas tinggi. Dengan biji kopi berkualitas
-            tinggi dan proses pengolahan yang terbaik, Kopi Kenangan Senja
-            memberikan pengalaman kopi yang unik dan memanjakan lidah Anda.
+            whoami is a simple command commonly used in Unix-like operating systems (such as Linux, macOS, and various Unix-like systems) to display the current active user's name. In simpler terms, this command answers the question "Who am I?" within the context of the operating system.
           </p>
         </div>
       </div>
@@ -184,14 +179,10 @@
     <!-- About Section End -->
 
     <!-- Menu Section Start -->
-    <section id="menu" class="menu">
-      <h2><span>Menu</span> Kami</h2>
+    <!-- <section id="menu" class="menu">
+      <h2><span>Social</span> Media</h2>
       <p>
-        Kopi Kenangan Senja adalah kopi yang terbuat dari biji kopi pilihan dan
-        diolah dengan teknologi terbaru untuk memberikan pengalaman kopi yang
-        lezat dan berkualitas tinggi. Dengan biji kopi berkualitas tinggi dan
-        proses pengolahan yang terbaik, Kopi Kenangan Senja memberikan
-        pengalaman kopi yang unik dan memanjakan lidah Anda.
+        My Social Media.
       </p>
 
       <div class="row">
@@ -226,18 +217,14 @@
           <p class="menu-card-price">IDR 12.000</p>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Menu Section End -->
 
     <!-- Products Section Start -->
     <section id="products" class="products" x-data="products">
-      <h2><span>Produk Unggulan</span> Kami</h2>
+      <h2><span>Our</span> Menu</h2>
       <p>
-        Kopi Kenangan Senja adalah kopi yang terbuat dari biji kopi pilihan dan
-        diolah dengan teknologi terbaru untuk memberikan pengalaman kopi yang
-        lezat dan berkualitas tinggi. Dengan biji kopi berkualitas tinggi dan
-        proses pengolahan yang terbaik, Kopi Kenangan Senja memberikan
-        pengalaman kopi yang unik dan memanjakan lidah Anda.
+        Menu Section.
       </p>
 
       <div class="row">
@@ -345,11 +332,9 @@
 
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
-      <h2><span>Kontak</span> Kami</h2>
+      <h2><span>Our</span> Contact</h2>
       <p>
-        Jika Anda memiliki pertanyaan atau ingin berdiskusi tentang Kopi
-        Kenangan Senja, jangan ragu untuk menghubungi kami melalui kontak di
-        bawah ini.
+        Ask if you curios about us.
       </p>
 
       <div class="row">
@@ -383,9 +368,9 @@
     <!-- Footer Start -->
     <footer>
       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="https://github.com/guanshiyin28" target="_blank"><i data-feather="github"></i></a>
+        <a href="https://www.instagram.com/guanshiyin_/"><i data-feather="instagram" target="_blank"></i></a>
+        <a href="https://x.com/guanss_"><i data-feather="twitter" target="_blank"></i></a>
       </div>
 
       <div class="links">
