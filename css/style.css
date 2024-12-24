@@ -243,6 +243,11 @@ body {
   cursor: pointer;
 }
 
+.form-container .checkout-button.disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
